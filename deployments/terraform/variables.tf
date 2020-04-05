@@ -41,5 +41,6 @@ variable "deployment_endpoint" {
     dev  = "dev.api.academy.fuchicorp.com"
     qa   = "qa.api.academy.fuchicorp.com"
     prod = "api.academy.fuchicorp.com"
+    test = "test.api.academy.fuchicorp.com"
   }
 }
