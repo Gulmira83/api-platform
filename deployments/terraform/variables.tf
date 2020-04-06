@@ -1,3 +1,20 @@
+variable "mysql_user" {
+  default = "exampleuser"
+}
+
+variable "mysql_database" {
+  default = "examplemdb"
+}
+
+variable "mysql_password" {
+  default = "examplePassword"
+}
+
+variable "mysql_root_password" {
+  default = "exampleRootPassword"
+}
+
+
 variable "name" {
   default = "api-webplatform"
 }

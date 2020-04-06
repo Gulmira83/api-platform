@@ -7,6 +7,10 @@ module "api-deploy" {
   deployment_path        = "api-platform"
 
   template_custom_vars  = {
+    mysql_password       = "${var.mysql_password}"
+    mysql_root_password  = "${var.mysql_root_password}"
+    mysql_user           = "${var.mysql_user}"
+    mysql_database       = "${var.mysql_database}"
     deployment_image    = "${var.deployment_image}"
   }
 }
