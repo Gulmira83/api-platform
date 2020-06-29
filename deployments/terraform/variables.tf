@@ -36,11 +36,14 @@ variable "deployment_environment" {
 
 variable "deployment_endpoint" {
   type = "map"
-
   default = {
-    dev  = "dev.api.academy.fuchicorp.com"
-    qa   = "qa.api.academy.fuchicorp.com"
-    prod = "api.academy.fuchicorp.com"
-    test = "test.api.academy.fuchicorp.com"
+      dev  = "dev.api"
+      qa   = "qa.api"
+      prod = "api"
+      test = "test.api"
+      stage  = "stage.api"
   }
+}
+variable "google_domain_name" {
+ default = "fuchicorp.com"
 }
