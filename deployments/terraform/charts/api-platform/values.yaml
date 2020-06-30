@@ -61,16 +61,16 @@ globalEnvironments:
   enabled: true
   environments:
 
-  - name: mysql_user
+  - name: MYSQL_USER
     value: ${mysql_user}
 
-  - name: mysql_database
+  - name: MYSQL_DATABASE
     value: ${mysql_database}
 
-  - name: mysql_password
+  - name: MYSQL_PASSWORD
     value: ${mysql_password}
 
-  - name: mysql_root_password
+  - name: MYSQL_ROOT_PASSWORD
     value: ${mysql_root_password}
 
 nodeSelector: {}
